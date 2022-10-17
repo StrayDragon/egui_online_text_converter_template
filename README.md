@@ -48,6 +48,7 @@ On Fedora Rawhide you need to run:
 ### Web Locally
 
 You can compile your app to [WASM](https://en.wikipedia.org/wiki/WebAssembly) and publish it as a web page.
+0. (Optional) Run `rustup target add wasm32-unknown-unknown`
 
 We use [Trunk](https://trunkrs.dev/) to build for web target.
 1. Install Trunk with `cargo install --locked trunk`.
